@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Brain Stroke Prediction</title>
+  </head>
+
+  <body style="background-color: rgb(255, 255, 255);">
+
+    <hr size="10" color="red">
+    <center>
+      <img src="../static/images.jfif" alt="carImage" height="110", width="200">
+      <h1 color="blue">Jupiter Neurology Hospital</h1>
+      <h3><em>You can rise up from anything....</em></h3>
+      <hr size="5" color="red">
+    <center>
+
+    <form action="/predict" method ="POST">
+        <br><br>
+
+        <label>Age       :<br></label><input type="text" name ="age"><br><br>
+        <label>BMI:                    <br></label><input type="text" name ="bmi"><br><br>
+        <label>Aerage Glucose level    :<br></label><input type="text" name ="avg_glucose_level"><br><br>
+
+
+        <h4>Gender</h4>
+        <input type="radio"  name="gender" value="Male"/>
+        <label for="radio-1">Male</label>
+        <input type="radio"  name="gender" value="Female"/>
+        <label for="radio-2">Female</label> <br>
+
+
+
+        <h4>Hypertension</h4>
+        <input type="radio"  name="hypertension" value="Yes"/>
+        <label for="radio-1">Yes</label>
+        <input type="radio"  name="hypertension" value="No"/>
+        <label for="radio-2">No</label>
+
+        <h4>Heart Disease</h4>
+        <input type="radio"  name="heart_disease" value="Yes"/>
+        <label for="radio-1">Yes </label>
+        <input type="radio"  name="heart_disease" value="No"/>
+        <label for="radio-2">No</label>
+
+
+        <h4>Ever Married</h4>
+        <input type="radio"  name="ever_married" value="Yes"/>
+        <label for="radio-bhk-1">Yes</label>
+        <input type="radio"  name="ever_married" value="No"/>
+        <label for="radio-bhk-2">No</label>
+        
+
+        <h4>Residence type</h4>
+        <input type="radio"  name="Residence_type" value="Urban"/>
+        <label for="radio-bhk-1">Urban</label>
+        <input type="radio"  name="Residence_type" value="Rural"/>
+        <label for="radio-bhk-2">Rural</label>
+
+        <h4>Do you Smoke ?</h4>
+        <input type="radio"  name="smoking_status" value="never_smoked"/>
+        <label for="radio-bhk-1">Never</label>
+        <input type="radio"  name="smoking_status" value="formerly_smoked"/>
+        <label for="radio-bhk-2">Moderate</label>
+        <input type="radio"  name="smoking_status" value="smokes"/>
+        <label for="radio-bhk-3">Smoke</label>
+
+
+        <br><br>
+        <select name="work_type">
+          <option value=""  selected="selected">Work Type</option>
+          <option>Govt_job</option>
+          <option>Never_worked</option>
+          <option>Private</option>
+          <option>Self-employed</option>
+          <option>children</option>
+
+        </select><br>
+        <br>
+        <br>
+
+        <input type="submit">
+        <br><br>
+
+
+    </form>
+
+  </body>
+</html>
