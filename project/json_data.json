@@ -1,0 +1,1 @@
+{"select_gender": {"Male": 1, "Female": 0}, "smoker_select": {"never_smoked": 0, "formerly_smoked": 1, "smokes": 2}, "Residence_type": {"Urban": 1, "Rural": 0}, "hypertension_select": {"Yes": 1, "No": 0}, "heart_disease_select": {"Yes": 1, "No": 0}, "ever_married_select": {"Yes": 1, "No": 0}, "work_type": ["Govt_job", "Never_worked", "Private", "Self-employed", "children"]}
